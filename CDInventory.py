@@ -171,7 +171,7 @@ try:
     FileProcessor.read_file(binaryFileName, lstTbl)
 except FileNotFoundError as e:
     print(e)
-    print('Could not find the CDInventory.txt file!')
+    print('Could not find the CDInventory.dat file!')
 
 # 2. start main loop
 while True:
